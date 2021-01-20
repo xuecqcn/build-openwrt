@@ -7,3 +7,6 @@
 # 相同的文件都拉一起，因为有一些可能还是其他大神修改过的容易造成编译错误的
 # 想要什么插件就单独的拉取什么插件就好，或者告诉我，我把插件放我的插件包就行了
 # 软件包地址：https://github.com/281677160/openwrt-package
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-filetransfer package/diy/luci-app-filetransfer  #文件传输（可用于安装IPK）
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-accesscontrol package/diy/luci-app-accesscontrol #访问时间控制
+
