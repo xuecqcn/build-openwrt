@@ -9,4 +9,8 @@
 # 软件包地址：https://github.com/281677160/openwrt-package
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-filetransfer package/diy/luci-app-filetransfer  #文件传输（可用于安装IPK）
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-accesscontrol package/diy/luci-app-accesscontrol #访问时间控制
-
+git clone https://github.com/fw876/helloworld package/diy/luci-app-ssr-plus
+git clone https://github.com/vernesong/OpenClash package/diy/luci-app-openclash
+git clone https://github.com/jerrykuku/luci-app-vssr package/diy/luci-app-vssr
+git clone https://github.com/xiaorouji/openwrt-passwall package/diy/luci-app-passwall
+git clone https://github.com/frainzy1477/luci-app-clash package/diy/luci-app-clash
